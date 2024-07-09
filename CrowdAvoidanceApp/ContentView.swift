@@ -37,13 +37,13 @@ struct ContentView: View {
                     }
                 }
                 Section(header: Text("混雑情報")) {
-                    CongestionRow(color: .blue, carNumber: "1号車", status: "とても快適")
-                    CongestionRow(color: .blue, carNumber: "2号車", status: "快適")
-                    CongestionRow(color: .green, carNumber: "3号車", status: "混雑")
+                    CongestionRow(color: .cyan, carNumber: "1号車", status: "とても快適")
+                    CongestionRow(color: .green, carNumber: "2号車", status: "快適")
+                    CongestionRow(color: .yellow, carNumber: "3号車", status: "混雑")
                     CongestionRow(color: .orange, carNumber: "4号車", status: "とても混雑")
                     CongestionRow(color: .red, carNumber: "5号車", status: "満員")
                     CongestionRow(color: .orange, carNumber: "6号車", status: "とても混雑")
-                    CongestionRow(color: .blue, carNumber: "7号車", status: "とても快適")
+                    CongestionRow(color: .cyan, carNumber: "7号車", status: "とても快適")
                     CongestionRow(color: .green, carNumber: "8号車", status: "快適")
                 }
             }
